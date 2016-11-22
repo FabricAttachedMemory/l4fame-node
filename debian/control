@@ -1,0 +1,20 @@
+Source: l4fame-node
+Maintainer: Keith Packard <packard@hpe.com>
+Uploaders: Keith Packard <keithp@keithp.com>
+Section: metapackages
+Priority: optional
+Origin: HPE
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+
+Package: l4fame-node
+Section: metapackages
+Priority: optional
+Architecture: all
+Depends: libfam-atomic2,
+	libpmem,
+	tm-libfuse,
+	${misc:Depends}
+Description: l4fame node meta package
+ This meta package loads all of the software necessary to run an
+ l4fame node.
