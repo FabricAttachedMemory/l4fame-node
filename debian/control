@@ -13,7 +13,7 @@ Priority: optional
 Architecture: all
 Depends: libfam-atomic2,
 	libpmem,
-	tm-libfuse,
+	tm-lfs,
 	${misc:Depends}
 Description: l4fame node meta package
  This meta package loads all of the software necessary to run an
