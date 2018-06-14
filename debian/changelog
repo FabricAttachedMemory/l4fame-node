@@ -1,3 +1,9 @@
+l4fame-node (0.3) unstable; urgency=medium
+
+  * Move kernel dependency here from hardcoding in tm-manifesting
+
+ -- Rocky Craig <rocky.craig@hpe.com>  Wed, 13 Jun 2018 10:42:42 -0600
+
 l4fame-node (0.2) unstable; urgency=medium
 
   * Switch from tm-libfuse to tm-lfs
